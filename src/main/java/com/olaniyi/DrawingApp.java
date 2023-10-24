@@ -10,7 +10,7 @@ public class DrawingApp {
         //Triangle triangle = new Triangle();
 
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Triangle triangle = (Triangle) context.getBean("triangle");
+        Triangle triangle = (Triangle) context.getBean("triangle1");
         triangle.draw();
     }
 }

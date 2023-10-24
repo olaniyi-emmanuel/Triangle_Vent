@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "https://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-    <bean id="triangle" class="com.olaniyi.Triangle" autowire="byName" scope="singleton">
+    <bean id="parent_triangle" class="com.olaniyi.Triangle" >
+        <property name="point1" ref="point1" ></property>
+    </bean>
 
+    <bean id="triangle1" class="com.olaniyi.Triangle" parent="parent_triangle">
+        <property name="point2" ref="point2"></property>
+        <property name="point3" ref="point3"></property>
     </bean>
 
     <bean id="point1" class="com.olaniyi.Point">
