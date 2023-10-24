@@ -2,12 +2,14 @@ package com.olaniyi;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 import java.util.List;
 
-public class Triangle implements ApplicationContextAware, BeanNameAware {
+public class Triangle implements ApplicationContextAware, BeanNameAware, InitializingBean, DisposableBean {
 
    private Point point1;
    private  Point point2;
@@ -54,5 +56,15 @@ public class Triangle implements ApplicationContextAware, BeanNameAware {
     public void setBeanName(String beanName) {
         System.out.println("BeanName is: " + beanName);
 
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("Initializing init method called for Triangle");
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("Destry method called for Triangle");
     }
 }
