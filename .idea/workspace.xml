@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Day 74">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Day 75">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698099906803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 75">
+      <created>1698108842788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698108842788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 74" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 74" />
+    <MESSAGE value="Day 75" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 75" />
   </component>
 </project>

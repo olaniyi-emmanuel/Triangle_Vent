@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "https://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-    <bean id="triangle" class="com.olaniyi.Triangle">
-       <property name="points" >
-           <list>
-               <ref bean="zeroPoint"></ref>
-               <ref bean="point1"></ref>
-               <ref bean="point2"></ref>
-           </list>
-       </property>
+    <bean id="triangle" class="com.olaniyi.Triangle" autowire="byName">
+
     </bean>
 
-    <bean id="zeroPoint" class="com.olaniyi.Point">
+    <bean id="point1" class="com.olaniyi.Point">
         <property name="x" value="0"></property>
         <property name="y" value="0"></property>
     </bean>
 
-    <bean id="point1" class="com.olaniyi.Point">
+    <bean id="point2" class="com.olaniyi.Point">
         <property name="x" value="-20"></property>
         <property name="y" value="0"></property>
     </bean>
 
-    <bean id="point2" class="com.olaniyi.Point">
+    <bean id="point3" class="com.olaniyi.Point">
         <property name="x" value="20"></property>
         <property name="y" value="0"></property>
     </bean>
