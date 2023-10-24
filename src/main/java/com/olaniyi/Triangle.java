@@ -1,12 +1,19 @@
 package com.olaniyi;
 
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+
 import java.util.List;
 
-public class Triangle {
+public class Triangle implements ApplicationContextAware, BeanNameAware {
 
    private Point point1;
    private  Point point2;
    private Point point3;
+
+   private ApplicationContext context;
 
     public Point getPoint1() {
         return point1;
@@ -36,5 +43,16 @@ public class Triangle {
         System.out.println("Point 1 = " + point1.getX() + ", " + point1.getY());
         System.out.println("Point 2 = " + point2.getX() + ", " + point2.getY());
         System.out.println("Point 3 = " + point3.getX() + ", " + point3.getY());
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext context) throws BeansException {
+        this.context = context;
+    }
+
+    @Override
+    public void setBeanName(String beanName) {
+        System.out.println("BeanName is: " + beanName);
+
     }
 }
