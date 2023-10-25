@@ -12,7 +12,7 @@ public class DrawingApp {
 
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         context.registerShutdownHook();
-        Shape shape = (Shape) context.getBean("triangle1");
+        Shape shape = (Shape) context.getBean("circle");
         shape.draw();
     }
 }

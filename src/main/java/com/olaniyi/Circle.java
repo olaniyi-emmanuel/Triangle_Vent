@@ -1,14 +1,21 @@
 package com.olaniyi;
 
-import com.olaniyi.Shape;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class Circle implements Shape {
     private Point centre;
+
+    public Circle(Point centre) {
+        this.centre = centre;
+    }
 
     public Point getCentre() {
         return centre;
     }
 
+
+    @Autowired
     public void setCentre(Point centre) {
         this.centre = centre;
     }
