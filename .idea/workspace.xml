@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Bean Definition Inheritance">
+    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="LifeCycle call back using AbstractApplicationContext">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/DisplayNameBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -21,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Documents\DevOps\spring\NewSpring\Vent\src\main\resources" />
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698115058369</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LifeCycle call back using AbstractApplicationContext">
+      <created>1698117544889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698117544889</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +133,7 @@
     <MESSAGE value="Autowiring concept in Spiring" />
     <MESSAGE value="Aware interfaces: ApplicationContextAware, BeanAware" />
     <MESSAGE value="Bean Definition Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bean Definition Inheritance" />
+    <MESSAGE value="LifeCycle call back using AbstractApplicationContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="LifeCycle call back using AbstractApplicationContext" />
   </component>
 </project>

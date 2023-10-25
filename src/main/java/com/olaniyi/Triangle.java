@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContextAware;
 
 import java.util.List;
 
-public class Triangle implements ApplicationContextAware, BeanNameAware, InitializingBean, DisposableBean {
+public class Triangle implements Shape, ApplicationContextAware, BeanNameAware, InitializingBean, DisposableBean {
 
    private Point point1;
    private  Point point2;

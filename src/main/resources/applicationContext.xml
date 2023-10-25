@@ -24,6 +24,13 @@
         <property name="x" value="20"></property>
         <property name="y" value="0"></property>
     </bean>
+
+    <bean id="circle" class="com.olaniyi.Circle" >
+        <property name="centre" ref="point1"></property>
+    </bean>
+
+    <bean id="DisplayNameBeanPostProcessor" class="com.olaniyi.DisplayNameBeanPostProcessor"></bean>
+
 </beans>
 
 
