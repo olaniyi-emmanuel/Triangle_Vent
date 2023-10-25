@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "https://www.springframework.org/dtd/spring-beans.dtd">
-<beans >
-    <bean id="parent_triangle" class="com.olaniyi.Triangle" >
-        <property name="point1" ref="point2"/>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="parent_triangle" class="com.olaniyi.Triangle">
+        <property name="point1" ref="point1"/>
     </bean>
 
     <bean id="triangle1" class="com.olaniyi.Triangle" parent="parent_triangle">
@@ -10,7 +18,8 @@
         <property name="point3" ref="point3"/>
     </bean>
 
-    <bean id="centre" class="com.olaniyi.Point">
+    <bean id="point1" class="com.olaniyi.Point">
+        <qualifier value="circleRelated"/>
         <property name="x" value="0"/>
         <property name="y" value="0"/>
     </bean>
@@ -25,29 +34,11 @@
         <property name="y" value="0"/>
     </bean>
 
-    <bean id="circle" class="com.olaniyi.Circle" >
+    <bean id="circle" class="com.olaniyi.Circle">
+        <!-- No need for a <qualifier> here -->
     </bean>
 
     <bean id="DisplayNameBeanPostProcessor" class="com.olaniyi.DisplayNameBeanPostProcessor"/>
     <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 
-
 </beans>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

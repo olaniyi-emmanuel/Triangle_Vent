@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Coding to Interface; this is really doing dependency injection">
+    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Autowired; a nice concept in creating ban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698239289853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Autowired; a nice concept in creating ban">
+      <created>1698264567050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264567050</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +146,7 @@
     <MESSAGE value="Bean Definition Inheritance" />
     <MESSAGE value="LifeCycle call back using AbstractApplicationContext" />
     <MESSAGE value="Coding to Interface; this is really doing dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding to Interface; this is really doing dependency injection" />
+    <MESSAGE value="Autowired; a nice concept in creating ban" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowired; a nice concept in creating ban" />
   </component>
 </project>
