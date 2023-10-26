@@ -56,6 +56,7 @@ public class Triangle implements Shape, ApplicationContextAware, BeanNameAware, 
     public void setBeanName(String beanName) {
         System.out.println("BeanName is: " + beanName);
 
+
     }
 
     @Override

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Qualifiers as used to reduce the amibiguity in autowired">
+    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="JSR 250">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myMessages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Documents\DevOps\spring\NewSpring\Vent\src\main\resources" />
+      <recent name="C:\Users\USER\Documents\DevOps\spring\NewSpring\Vent\src\main\java\com\olaniyi" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698276683871</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JSR 250">
+      <created>1698284862392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698284862392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,17 +165,7 @@
     <MESSAGE value="Coding to Interface; this is really doing dependency injection" />
     <MESSAGE value="Autowired; a nice concept in creating ban" />
     <MESSAGE value="Qualifiers as used to reduce the amibiguity in autowired" />
-    <option name="LAST_COMMIT_MESSAGE" value="Qualifiers as used to reduce the amibiguity in autowired" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="JSR 250" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSR 250" />
   </component>
 </project>
