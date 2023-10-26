@@ -1,23 +1,19 @@
 package com.olaniyi;
 
 
+import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Circle implements Shape {
     private Point centre;
 
-    public Circle(Point centre) {
-        this.centre = centre;
-    }
-
     public Point getCentre() {
         return centre;
     }
 
 
-    @Autowired
-    @Qualifier("circleRelated")
+    @Resource(name = "point2")
     public void setCentre(Point centre) {
         this.centre = centre;
     }

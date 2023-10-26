@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Autowired; a nice concept in creating ban">
+    <list default="true" id="5fdbbf99-c096-4526-bc62-9f4fb63f3391" name="Changes" comment="Qualifiers as used to reduce the amibiguity in autowired">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olaniyi/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698264567050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Qualifiers as used to reduce the amibiguity in autowired">
+      <created>1698276683871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698276683871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +155,18 @@
     <MESSAGE value="LifeCycle call back using AbstractApplicationContext" />
     <MESSAGE value="Coding to Interface; this is really doing dependency injection" />
     <MESSAGE value="Autowired; a nice concept in creating ban" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autowired; a nice concept in creating ban" />
+    <MESSAGE value="Qualifiers as used to reduce the amibiguity in autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="Qualifiers as used to reduce the amibiguity in autowired" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/olaniyi/DrawingApp.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
